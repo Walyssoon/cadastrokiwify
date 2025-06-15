@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Cadastro Kiwify</title>
+</head>
+<body>
+
+    <main>
+        <div class="cabecalho">
+            <img src="assets/exv73483.png" alt="Logo-Kiwify">
+
+            <h1>Criar nova conta</h1>
+            <p>ou <a href="#">entrar na sua conta existente</a></p>
+
+        </div>
+
+        <div class="conteiner-geral-forms">
+            <form>
+                <label for="g-mail">E-mail</label>
+                <input type="email" name="email" id="g-mail" required>
+
+                <label for="re-mail">Repetir e-mail</label>
+                <input type="email" name="email" id="re-mail" required>
+
+                <label for="">senha</label>
+                <input type="password" name="passwrd" id="senha" required>
+
+                <label for="pais" class="label-com-icone">País <span class="tooltipo-icon" title="Selecione o país em que você mora">?</span></label>
+
+                <select class="selecao" name="pais" id="pais" required>
+                    <option value="">Brasil</option>
+                    <option value="brasil">Brasil</option>
+                </select>
+
+                <div class="container">
+                    <input type="checkbox" id="aceito" name="aceito" required>
+                <label class="checkbox-label" for="aceito">
+                    Eu li e aceito os 
+                    <a href="#" target="_blank">termos de uso, termos de licença de uso </a>
+                    <a href="#" target="_blank">de  software, politica de </a>
+                    <a href="#" target="_blank">conteúdo</a> da kiwify
+                </label>
+
+                </div>
+
+                <input type="submit" value="Criar conta">
+
+                
+            </form>
+        </div>
+       
+    </main>
+    
+    
+</body>
+</html>
